@@ -140,7 +140,7 @@ export function Summary({ items, people, placeName, taxMode, setTaxMode, taxInpu
               </div>
               {person.venmoUsername && (
                 <a 
-                  href={`https://account.venmo.com/pay?txn=charge&audience=private&recipients=${person.venmoUsername.replace('@', '')}&amount=${total.toFixed(2)}&note=${placeName ? encodeURIComponent(placeName) : 'Tab%20Splitter'}`} 
+                  href={`venmo://paycharge?txn=charge&recipients=${person.venmoUsername.replace('@', '')}&amount=${total.toFixed(2)}&note=${placeName ? encodeURIComponent(placeName) : 'Tab%20Splitter'}`} 
                   className="btn-primary"
                   style={{ width: 'auto', padding: '8px 20px', textDecoration: 'none', background: '#008CFF', border: 'none' }}
                 >
