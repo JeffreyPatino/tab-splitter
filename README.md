@@ -2,7 +2,7 @@
 
 A modern, mobile-first web application designed to help friends seamlessly split restaurant and bar bills. 
 
-Instead of manually doing the math or typing out every single item, Tab Splitter lets you **take a picture of your receipt**, uses AI (Cloudflare Workers AI + Llama 3.2 Vision) to extract all the items automatically, and provides an interactive interface for everyone to claim what they ordered. Finally, it generates Venmo requests automatically for easy settlement.
+Instead of manually doing the math or typing out every single item, Tab Splitter lets you **take a picture of your receipt**, uses AI (Cloudflare Workers AI + Llama 3.2 Vision) to extract all the items automatically, and provides an interactive interface for you to quickly assign items to each friend. Finally, it generates Venmo requests automatically for easy settlement.
 
 ## Features
 - **AI Receipt Scanning**: Snap a picture of a receipt and the app uses Llama 3.2 Vision to extract all items and prices.
