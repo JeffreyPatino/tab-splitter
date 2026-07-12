@@ -115,8 +115,9 @@ function App() {
         
         <input 
           type="text" 
-          name="placeName"
-          autoComplete="off"
+          autoComplete="none"
+          data-1p-ignore
+          data-lpignore="true"
           placeholder="Where did you go? (e.g. Joe's Diner)"
           value={placeName}
           onChange={(e) => setPlaceName(e.target.value)}

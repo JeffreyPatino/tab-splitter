@@ -103,7 +103,9 @@ export function PeopleManager({ people, setPeople, activePersonId, setActivePers
       <form onSubmit={handleAddPerson} className="mobile-stack" style={{ display: 'flex', gap: '8px', marginBottom: '24px' }}>
         <input 
           type="text" 
-          autoComplete="off"
+          autoComplete="none"
+          data-1p-ignore
+          data-lpignore="true"
           list="saved-friends"
           placeholder="Add a person's name..." 
           value={newPersonName} 

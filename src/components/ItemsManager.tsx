@@ -81,7 +81,9 @@ export function ItemsManager({ items, setItems, activePersonId }: Props) {
       <form onSubmit={handleAdd} className="mobile-stack" style={{ display: 'flex', gap: '8px', marginBottom: '24px' }}>
         <input 
           type="text" 
-          autoComplete="off"
+          autoComplete="none"
+          data-1p-ignore
+          data-lpignore="true"
           placeholder="Item (e.g. Burger)" 
           value={name} 
           onChange={e => setName(e.target.value)}
